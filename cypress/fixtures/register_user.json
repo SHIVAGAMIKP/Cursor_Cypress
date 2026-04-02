@@ -1,0 +1,9 @@
+{
+  "paths": {
+    "registration": "/users/registration"
+  },
+  "user": {
+    "full_name": "Automation Test User",
+    "password": "TestUser@12345"
+  }
+}

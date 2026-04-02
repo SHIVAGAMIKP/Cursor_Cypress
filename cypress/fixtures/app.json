@@ -1,0 +1,6 @@
+{
+  "paths": {
+    "login": "/users/login",
+    "registration": "/users/registration"
+  }
+}
