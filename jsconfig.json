@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "noEmit": true,
+    "module": "commonjs",
+    "target": "ES2020",
+    "types": ["cypress", "node"]
+  },
+  "include": ["cypress.config.js", "types/**/*.d.ts"]
+}
