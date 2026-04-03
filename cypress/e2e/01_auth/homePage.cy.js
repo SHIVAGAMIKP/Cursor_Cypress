@@ -9,6 +9,13 @@ describe("Home — auth entry", () => {
     cy.intercept("POST", "**/set-timezone").as("setTimezone");
   });
 
+  it.only("logs browser info", () => {
+    console.log("hello");
+    console.log("hello"+`Browser: ${Cypress.browser.name}`);
+    console.log(`Browser family: ${Cypress.browser.family}`);
+    console.log(`Browser version: ${Cypress.browser.version}`);
+  });
+
   it("should show Login and Register entry points after session check", function () {
     cy.fixture("app").as("app");
     homePage.visitHome();

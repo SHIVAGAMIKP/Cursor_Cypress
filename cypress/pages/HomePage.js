@@ -4,6 +4,12 @@
  */
 class HomePage {
   visitHome() {
+  
+      console.log("hello");
+      console.log("hello"+`Browser: ${Cypress.browser.name}`);
+      console.log(`Browser family: ${Cypress.browser.family}`);
+      console.log(`Browser version: ${Cypress.browser.version}`);
+   
     cy.visit("/");
   }
 
